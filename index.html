@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Icon</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./buttonRippleEffect.js"></script>
+    <script defer src="./quote.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="audio">
+        
+    </div>
+    <div class="background">
+        <video 
+        autoplay loop class ="back-video" muted plays-inline>
+        <source src="./media/testDefault.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section>
+        <h2>Hello! <br>Click the icon below to check today's weather!</h2>
+        <header>
+            <form>
+                <div class="hero">
+                    <div id="searchBox"> 
+                        <img src="./media/Desktop Icons 2.png" id="icon">
+                        <input id="searchBar" type="text" placeholder="How's the weather?" name="search"/>
+                        <input id="submitButton" type="submit" value="Enter"/>
+                    </div>
+                </div>
+            </form>
+        </header>   
+        
+        
+    </section>
+    <main class="display" hidden>
+    </main>
+    <aside class="history" hidden> 
+        <!-- <h2>Previous Searches</h2> -->
+        <ul>
+            <p>No Searches yet..</p>
+        </ul>
+    </aside>
+    <div class="randomQuote">
+        
+    </div>
+    
+    <button class='btn'>Daily Quote</button>
+    <button class="reset">&#x21e6;</button>
+
+</body>
+</html>
